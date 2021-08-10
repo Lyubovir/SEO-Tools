@@ -27,6 +27,7 @@
                           {
                               new RolesSeeder(),
                               new SettingsSeeder(),
+                              new GoogleServersSeeder(),
                           };
 
             foreach (var seeder in seeders)

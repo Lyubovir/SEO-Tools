@@ -26,6 +26,14 @@
 
         public DbSet<Setting> Settings { get; set; }
 
+        public DbSet<GoogleServer> GoogleServers { get; set; }
+
+        public DbSet<Keyword> Keywords { get; set; }
+
+        public DbSet<KeywordPosition> KeywordPositions { get; set; }
+
+        public DbSet<Site> Sites { get; set; }
+
         public override int SaveChanges() => this.SaveChanges(true);
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)

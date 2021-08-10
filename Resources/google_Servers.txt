@@ -1,0 +1,65 @@
+﻿Argentina, com.ar, es
+Armenia, am, am
+Australia, com.au, en
+Austria, at, de
+Belarus, by, be
+Belgium, be, fr
+Brazil, com.br, pt
+Bulgaria, bg, bg
+Canada, ca, en
+Chile, cl, es
+China, cn, zh-cn
+Croatia, hr, hr
+Cuba, com.cu, es
+Czech Republic, cz, cs
+Denmark, dk, da
+Estonia, ee, et
+Finland, fi, fi
+France, fr, fr
+Germany, de, de
+Global, com, en
+Greece, gr, el
+Hong Kong, com.hk, en
+Hungary, hu, hu
+Iceland, is, is
+India, co.in, hi
+Indonesia, co.id, id
+Iraq, iq, ar
+Ireland, ie, en
+Israel, co.il, iw
+Italy, it, it
+Japan, co.jp, ja
+Jordan, jo, ar
+Kuwait, com.kw, ar
+Latvia, lv, lv
+Lithuania, lt, lt
+Luxembourg, lu, en
+Macedonia, mk, mk
+Mexico, com.mx, es
+Moldova, md, ro
+Netherlands, nl, nl
+New Zealand, co.nz, en
+Norway, no, no
+Pakistan, com.pk, ur
+Philippines, com.ph, tl
+Poland, pl, pl
+Portugal, pt, pt
+Romania, ro, ro
+Russia, ru, ru
+Saudi Arabia, com.sa, ar
+Serbia, rs, sr
+Singapore, com.sg, en
+Slovakia, sk, sk
+Slovenia, si, sl
+South Africa, co.za, en
+South Korea, co.kr, ko
+Spain, es, es
+Sweden, se, sv
+Switzerland, ch, de
+Taiwan, com.tw, cn
+Turkey, com.tr, tr
+Ukraine, com.ua, uk
+United Arab Emirates, ae, ar
+United Kingdom, co.uk, en
+United States, com, en
+Vietnam, com.vn, vi
