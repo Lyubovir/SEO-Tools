@@ -1,7 +1,7 @@
 ﻿namespace SeoTools.Data.Models
 {
     using System.Collections.Generic;
-
+    using System.ComponentModel.DataAnnotations;
     using SeoTools.Data.Common.Models;
 
     public class Keyword : BaseDeletableModel<int>
@@ -11,6 +11,7 @@
             this.Positions = new HashSet<KeywordPosition>();
         }
 
+        [Required]
         public string Text { get; set; }
 
         public int GoogleServerId { get; set; }

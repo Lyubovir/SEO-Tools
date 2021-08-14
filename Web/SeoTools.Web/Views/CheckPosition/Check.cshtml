@@ -1,0 +1,29 @@
+﻿@model SeoTools.Web.ViewModels.CheckPosition.CheckInputModel
+@{ 
+    this.ViewData["Title"] = "Check site position in Google";
+    var googleCategories = this.Model.GoogleCategories.OrderBy(x => x.Value).Select(x => new SelectListItem(x.Value, x.Key.ToString(), (x.Value == "United States - google.com")));
+}
+
+<h1>@this.ViewData["Title"]</h1>
+
+<form method="post" asp-action="CheckKeyword" class="col-md-10 offset-md-1">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Domain"></label>
+        <input asp-for="Domain" class="form-control" />
+        <span asp-validation-for="Domain" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Keyword"></label>
+        <input asp-for="Keyword" class="form-control" />
+        <span asp-validation-for="Keyword" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CountryId"></label>
+        <select asp-for="CountryId" class="form-control" asp-items="googleCategories"></select>
+        <span asp-validation-for="CountryId" class="text-danger"></span>
+    </div>
+    <div class="seo-form-field">
+        <input type="submit" class="btn btn-primary" />
+    </div>
+</form>
